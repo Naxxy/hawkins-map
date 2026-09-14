@@ -13,12 +13,12 @@ A searchable reference tool for David R. Hawkins' consciousness calibration syst
 - Compact view toggle
 
 ## Live site
-👉 **[View on GitHub Pages](https://YOUR_USERNAME.github.io/hawkins-map)**
+👉 **[View on GitHub Pages](https://tytown.github.io/hawkins-map)**
 
 ## Deploy your own
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hawkins-map
+git clone https://github.com/tytown/hawkins-map
 cd hawkins-map
 npm install
 npm run dev        # local dev

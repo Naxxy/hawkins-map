@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Map of Consciousness">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#fde68a"/>
+      <stop offset="45%"  stop-color="#fcd34d"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#fb923c" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#fb923c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#0d1018"/>
+  <circle cx="256" cy="256" r="205" fill="url(#glow)"/>
+  <path fill="url(#gold)" fill-rule="evenodd" d="
+    M256 51.2 L427.5 256 L256 460.8 L84.5 256 Z
+    M256 141.3 L352 256 L256 370.7 L160 256 Z
+    M256 202.8 L300.6 256 L256 309.2 L211.4 256 Z"/>
+</svg>
