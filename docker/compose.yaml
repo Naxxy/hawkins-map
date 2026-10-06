@@ -6,6 +6,7 @@ services:
       context: ..
       dockerfile: docker/Dockerfile
     image: hawkins-map
+    pull_policy: build
     restart: unless-stopped
     ports:
       - "${PORT:-8080}:80"
