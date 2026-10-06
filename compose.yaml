@@ -1,0 +1,12 @@
+services:
+  hawkins-map:
+    build: .
+    image: hawkins-map
+    container_name: hawkins-map
+    restart: unless-stopped
+    networks:
+      - web
+
+networks:
+  web:
+    external: true
