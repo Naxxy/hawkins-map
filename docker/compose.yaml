@@ -1,0 +1,11 @@
+name: hawkins-map
+
+services:
+  hawkins-map:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: hawkins-map
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8080}:80"

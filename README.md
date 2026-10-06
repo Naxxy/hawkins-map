@@ -25,6 +25,14 @@ npm run dev        # local dev
 npm run deploy     # push to GitHub Pages
 ```
 
+### Self-host with Docker
+
+```bash
+docker compose -f docker/compose.yaml up -d --build
+```
+
+The site is served at http://localhost:8080. Set `PORT` to use a different host port, e.g. `PORT=3000 docker compose -f docker/compose.yaml up -d --build`.
+
 ## Sources
 - *Truth vs. Falsehood* — David R. Hawkins (pages 396–678, all calibration tables)
 - *Power vs. Force* — David R. Hawkins

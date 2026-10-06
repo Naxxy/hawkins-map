@@ -4,5 +4,4 @@ dist
 .github
 .DS_Store
 *.local
-Dockerfile
-compose.yaml
+docker
